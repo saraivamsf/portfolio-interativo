@@ -14,14 +14,14 @@ Portfólio de Miguel Saraiva Ferreira, estudante de Ciência da Computação na 
 - Projetos UrMind e Floodwatch com imagens e links para seus repositórios.
 - Vídeo de demonstração do Floodwatch e indicação de que o UrMind está em desenvolvimento.
 - Links para GitHub, LinkedIn e e-mail.
-- Navegação das abas pelo teclado, com as setas, Home e End.
+- Navegação das abas pelo teclado, com as setas.
 
 ## Tecnologias utilizadas
 
 | Tecnologia | Utilização |
 | --- | --- |
 | HTML | Estrutura e conteúdo da página |
-| CSS | Estilos, identidade visual, responsividade e animação do cursor |
+| CSS | Estilos, identidade visual e responsividade |
 | JavaScript | Renderização das seções e navegação pelas abas |
 
 ## Dependências, bibliotecas e frameworks
