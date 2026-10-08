@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfólio interativo com interface de terminal."
+    />
+    <title>Portfólio — Miguel Saraiva</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#sobre"
+        ><span class="logo">&gt;_</span> miguelsf<span class="muted"
+          >.dev</span
+        ></a
+      >
+      <div class="header-right">
+        <span class="status">● sistema online</span>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="eyebrow">/ HOME / PORTFÓLIO PESSOAL</div>
+        <h1>
+          Miguel Saraiva Ferreira.<br /><span
+            >Estudante de Ciência da Computação<span class="cursor"
+              >_</span
+            ></span
+          >
+        </h1>
+        <p>
+          Um espaço para conhecer minha trajetória, explorar projetos<br
+            class="desktop"
+          />
+          e descobrir o que vem a seguir.
+        </p>
+        <div class="intro-bottom">
+          <span><i></i> Aberto a novas conexões</span
+          ><span class="muted">JAVA / C / C++ / HTML / CSS / JavaScript</span>
+        </div>
+      </section>
+      <section class="terminal">
+        <div class="titlebar">
+          <span class="dots"><i></i><i></i><i></i></span
+          ><span>miguelsf@portfolio: ~</span
+          ><span class="shell">bash — 80 × 24</span>
+        </div>
+        <nav aria-label="Seções do portfólio" role="tablist">
+          <button role="tab" data-tab="sobre">01 <span>Sobre</span></button
+          ><button role="tab" data-tab="projetos">
+            02 <span>Projetos</span></button
+          ><button role="tab" data-tab="formacao">
+            03 <span>Formação</span></button
+          ><button role="tab" data-tab="experiencia">
+            04 <span>Experiência</span></button
+          ><button role="tab" data-tab="interesses">
+            05 <span>Interesses</span></button
+          ><button role="tab" data-tab="contato">
+            06 <span>Contato</span>
+          </button>
+        </nav>
+        <div id="panel" role="tabpanel" tabindex="0"></div>
+        <div class="terminal-footer">
+          <span>↑ explore pelas abas</span><span>UTF-8 <i>●</i></span>
+        </div>
+      </section>
+      <footer>
+        <span
+          >© <span id="year"></span> <span id="footerName">Seu nome</span></span
+        ><span>miguelsf <b>&lt;/&gt;</b></span>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
