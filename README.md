@@ -21,7 +21,7 @@ Portfólio de Miguel Saraiva Ferreira, estudante de Ciência da Computação na 
 | Tecnologia | Utilização |
 | --- | --- |
 | HTML | Estrutura e conteúdo da página |
-| CSS | Estilos, identidade visual e responsividade |
+| CSS | Estilos, identidade visual e responsividade git|
 | JavaScript | Renderização das seções e navegação pelas abas |
 
 ## Dependências, bibliotecas e frameworks
