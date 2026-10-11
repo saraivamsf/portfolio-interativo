@@ -67,7 +67,7 @@ const pages = {
       )
       .join("")}</div>`,
   formacao: () =>
-    `<div class="section-label">APRENDIZADO EM PROGRESSO</div><h2>Formação & trajetória<span>.</span></h2><div class="timeline"><article><span class="section-label">GRADUAÇÃO EM ANDAMENTO</span><h3>Ciência da Computação</h3><p>Cursando Ciência da Computação pela PUC Minas.</p></article><article><span class="section-label">IDIOMAS</span><h3>Aprendizado complementar</h3><p>Fluência em inglês.</p></article></div>`,
+    `<div class="section-label">APRENDIZADO EM PROGRESSO</div><h2>Formação & trajetória<span>.</span></h2><div class="timeline"><article><span class="section-label">GRADUAÇÃO EM ANDAMENTO</span><h3>Ciência da Computação</h3><p>Cursando Ciência da Computação pela PUC Minas.</p></article><article><span class="section-label">CURSO EM ANDAMENTO</span><h3>Front-end com React</h3><p>Alura · Em andamento.</p></article><article><span class="section-label">IDIOMAS</span><h3>Aprendizado complementar</h3><p>Fluência em inglês.</p></article></div>`,
   experiencia: () =>
     `<div class="section-label">CONSTRUINDO MINHA TRAJETÓRIA</div><h2>Experiência<span>.</span></h2><p>Ainda não tive experiência profissional. Atualmente, estou focado em cursos para aprofundar meus conhecimentos e em projetos pessoais para colocar em prática o que aprendo e desenvolver minhas habilidades.</p>`,
   interesses: () =>
