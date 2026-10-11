@@ -33,12 +33,7 @@ O projeto não utiliza bibliotecas ou frameworks externos e não possui dependê
 A estrutura atual do repositório é:
 
 ```text
-portfolio-interativo/
-├── README.md
-├── index.html
-├── style.css
-├── script.js
-├── imagens/
+portfolio-interativo/imagens/
 │   ├── profile.JPG
 │   ├── urmind.png
 │   └── flood.png
