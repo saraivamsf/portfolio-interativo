@@ -8,7 +8,7 @@ const profile = {
   email: "miguelsaraiva2303@gmail.com",
   github: "https://github.com/saraivamsf",
   linkedin: "https://www.linkedin.com/in/miguel-saraiva-ferreira-99137932a/",
-  photo: "profile.JPG",
+  photo: "imagens/profile.JPG",
 };
 const panel = document.querySelector("#panel");
 const escape = (s) =>
@@ -45,7 +45,7 @@ const pages = {
         "UrMind",
         "Site para agendar consultas a distância com psicólogos, facilitando o acesso ao atendimento psicológico online.",
         ["HTML", "CSS", "JavaScript"],
-        "urmind.png",
+        "imagens/urmind.png",
         null,
         "Em desenvolvimento",
         "https://github.com/ICEI-PUC-Minas-CC-TI/pmg-cc-2026-2-ti2-6168100-pmg-cc-2026-2-ti2-6168100-group-1",
@@ -55,7 +55,7 @@ const pages = {
         "Floodwatch",
         "Projeto com Arduino para medir a elevação do nível da água e acompanhar o crescimento de enchentes.",
         ["Arduino", "C++"],
-        "flood.png",
+        "imagens/flood.png",
         "https://www.youtube.com/watch?v=lzx1_zlPERs&t=3s",
         null,
         "https://github.com/Matheus-Romling/FloodWatch-Codigo",

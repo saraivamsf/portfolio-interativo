@@ -37,11 +37,40 @@ portfolio-interativo/
 ├── index.html    # Página principal e navegação
 ├── style.css     # Estilos e regras de responsividade
 ├── script.js     # Dados do perfil, conteúdo e comportamento das abas
-├── profile.JPG   # Foto de perfil
-├── urmind.png    # Imagem do projeto UrMind
-├── flood.png     # Imagem do projeto Floodwatch
+├── imagens/
+│   ├── profile.JPG   # Foto de perfil
+│   ├── urmind.png    # Imagem do projeto UrMind
+│   └── flood.png     # Imagem do projeto Floodwatch
 └── README.md     # Documentação do projeto
 ```
+
+## Wireframes
+
+Planejamento das seis telas do portfólio, com visual inspirado em terminal.
+
+### Sobre
+
+![Wireframe da aba Sobre](prototipo/wireframes/01-sobre.png)
+
+### Projetos
+
+![Wireframe da aba Projetos](prototipo/wireframes/02-projetos.png)
+
+### Formação
+
+![Wireframe da aba Formação](prototipo/wireframes/03-formacao.png)
+
+### Experiência
+
+![Wireframe da aba Experiência](prototipo/wireframes/04-experiencia.png)
+
+### Interesses
+
+![Wireframe da aba Interesses](prototipo/wireframes/05-interesses.png)
+
+### Contato
+
+![Wireframe da aba Contato](prototipo/wireframes/06-contato.png)
 
 ## Autor
 
