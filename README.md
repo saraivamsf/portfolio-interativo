@@ -30,19 +30,34 @@ O projeto não utiliza bibliotecas ou frameworks externos e não possui dependê
 
 ## Estrutura de diretórios
 
-Os arquivos abaixo ficam na raiz do repositório:
+A estrutura atual do repositório é:
 
 ```text
 portfolio-interativo/
-├── index.html    # Página principal e navegação
-├── style.css     # Estilos e regras de responsividade
-├── script.js     # Dados do perfil, conteúdo e comportamento das abas
+├── README.md
+├── index.html
+├── style.css
+├── script.js
 ├── imagens/
-│   ├── profile.JPG   # Foto de perfil
-│   ├── urmind.png    # Imagem do projeto UrMind
-│   └── flood.png     # Imagem do projeto Floodwatch
-└── README.md     # Documentação do projeto
+│   ├── profile.JPG
+│   ├── urmind.png
+│   └── flood.png
+└── prototipo/
+    └── wireframes/
+        ├── 01-sobre.png
+        ├── 02-projetos.png
+        ├── 03-formacao.png
+        ├── 04-experiencia.png
+        ├── 05-interesses.png
+        └── 06-contato.png
 ```
+
+- `index.html`: página principal e navegação.
+- `style.css`: estilos e regras de responsividade.
+- `script.js`: conteúdo e comportamento das abas.
+- `imagens/`: foto de perfil e imagens dos projetos.
+- `prototipo/wireframes/`: imagens do planejamento das seis telas.
+- `README.md`: documentação do projeto.
 
 ## Wireframes
 
