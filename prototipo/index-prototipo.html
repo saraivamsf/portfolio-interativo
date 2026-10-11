@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Protótipo do portfólio de Miguel Saraiva Ferreira."
+    />
+    <title>miguelsf.dev — Protótipo</title>
+    <link rel="stylesheet" href="style-prototipo.css" />
+    <script src="script-prototipo.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <span class="brand">&gt;_ miguelsf.dev</span>
+      <span class="badge">Protótipo</span>
+    </header>
+    <main>
+      <h1>Miguel Saraiva Ferreira</h1>
+      <p class="subtitle">Estudante de Ciência da Computação · PUC Minas</p>
+      <div class="terminal">
+        <nav aria-label="Seções do portfólio" role="tablist">
+          <button
+            id="tab-sobre"
+            role="tab"
+            aria-controls="sobre"
+            aria-selected="true"
+          >
+            Sobre
+          </button>
+          <button
+            id="tab-projetos"
+            role="tab"
+            aria-controls="projetos"
+            aria-selected="false"
+          >
+            Projetos
+          </button>
+          <button
+            id="tab-formacao"
+            role="tab"
+            aria-controls="formacao"
+            aria-selected="false"
+          >
+            Formação
+          </button>
+          <button
+            id="tab-experiencia"
+            role="tab"
+            aria-controls="experiencia"
+            aria-selected="false"
+          >
+            Experiência
+          </button>
+          <button
+            id="tab-interesses"
+            role="tab"
+            aria-controls="interesses"
+            aria-selected="false"
+          >
+            Interesses
+          </button>
+          <button
+            id="tab-contato"
+            role="tab"
+            aria-controls="contato"
+            aria-selected="false"
+          >
+            Contato
+          </button>
+        </nav>
+        <section
+          id="sobre"
+          role="tabpanel"
+          aria-labelledby="tab-sobre"
+        >
+          <h2>Sobre mim</h2>
+          <div class="about-layout">
+            <div
+              class="photo-space"
+              role="img"
+              aria-label="Espaço reservado para foto de perfil"
+            >
+              <span>Foto de perfil</span>
+            </div>
+            <div>
+              <p>
+                Tenho interesse em tecnologia, programação e desenvolvimento de
+                software. Estou aprimorando meus conhecimentos por meio de
+                cursos e projetos pessoais, com foco principalmente em
+                cibersegurança e engenharia de software.
+              </p>
+              <p class="highlight">Status: em formação</p>
+              <p class="subtitle">Java · C · C++ · HTML · CSS · JavaScript</p>
+            </div>
+          </div>
+        </section>
+        <section
+          id="projetos"
+          role="tabpanel"
+          aria-labelledby="tab-projetos"
+          hidden
+        >
+          <h2>Projetos</h2>
+          <article>
+            <h3>01 / UrMind <span class="badge">Em desenvolvimento</span></h3>
+            <p>Site para agendar consultas a distância com psicólogos.</p>
+            <p class="subtitle">HTML · CSS · JavaScript</p>
+            <a
+              href="https://github.com/ICEI-PUC-Minas-CC-TI/pmg-cc-2026-2-ti2-6168100-pmg-cc-2026-2-ti2-6168100-group-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ver projeto no GitHub ↗</a
+            >
+          </article>
+          <article>
+            <h3>02 / Floodwatch</h3>
+            <p>
+              Projeto com Arduino para medir a elevação da água e acompanhar o
+              crescimento de enchentes.
+            </p>
+            <p class="subtitle">Arduino · C++</p>
+            <a
+              href="https://github.com/Matheus-Romling/FloodWatch-Codigo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ver projeto no GitHub ↗</a
+            >
+          </article>
+        </section>
+        <section
+          id="formacao"
+          role="tabpanel"
+          aria-labelledby="tab-formacao"
+          hidden
+        >
+          <h2>Formação</h2>
+          <h3>Ciência da Computação</h3>
+          <p>Graduação em andamento na PUC Minas.</p>
+          <h3>Aprendizado complementar</h3>
+          <p>Fluência em inglês.</p>
+        </section>
+        <section
+          id="experiencia"
+          role="tabpanel"
+          aria-labelledby="tab-experiencia"
+          hidden
+        >
+          <h2>Experiência</h2>
+          <p>
+            Ainda não tive experiência profissional. Estou focado em cursos para
+            aprofundar meus conhecimentos e em projetos pessoais para colocar em
+            prática o que aprendo.
+          </p>
+        </section>
+        <section
+          id="interesses"
+          role="tabpanel"
+          aria-labelledby="tab-interesses"
+          hidden
+        >
+          <h2>Interesses</h2>
+          <ul>
+            <li>Segurança da Informação</li>
+            <li>Engenharia de Software</li>
+            <li>Inteligência Artificial</li>
+          </ul>
+        </section>
+        <section
+          id="contato"
+          role="tabpanel"
+          aria-labelledby="tab-contato"
+          hidden
+        >
+          <h2>Contato</h2>
+          <div class="contacts">
+            <a
+              href="https://github.com/saraivamsf"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://www.linkedin.com/in/miguel-saraiva-ferreira-99137932a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn ↗</a
+            >
+            <a href="mailto:miguelsaraiva2303@gmail.com"
+              >miguelsaraiva2303@gmail.com</a
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>miguelsf · Protótipo do portfólio</footer>
+  </body>
+</html>
